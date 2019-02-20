@@ -10,7 +10,7 @@
 
 	<link rel="stylesheet" type="text/css" href="css/y.css" media="all" /> 
 	<link rel="stylesheet" type="text/css" href="css/resume.css" media="all" />
-   <h1>ciao </p>
+   
 </head>
 <body>
 
@@ -22,6 +22,9 @@
 				<div class="yui-u first">
 					<h1>Gabriele Martini</h1>
 					<h2>Software Developer</h2>
+				</div>
+				<div class="yui-u">
+				    <img src="img/smoothsea.jpg" style="max-width: 300px" />
 				</div>
 				 
 			</div><!--// .yui-gc -->
