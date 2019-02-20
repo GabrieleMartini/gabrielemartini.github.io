@@ -8,9 +8,9 @@
 	<meta name="keywords" content="" />
 	<meta name="description" content="" />
 
-	<link rel="stylesheet" type="text/css" href="y.css" media="all" /> 
-	<link rel="stylesheet" type="text/css" href="resume.css" media="all" />
-
+	<link rel="stylesheet" type="text/css" href="css/y.css" media="all" /> 
+	<link rel="stylesheet" type="text/css" href="css/resume.css" media="all" />
+   <h1>ciao </p>
 </head>
 <body>
 
