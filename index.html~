@@ -6,7 +6,9 @@
     <body>
         <div style="background-image: url('img/cover.jpg'); background-repeat: no-repeat;  background-size: cover; text-align: right; min-height: 200px"> <h1>Gabriele Martini</h1> </div>
         <h1>About me</h1>
-        <p>I believe that time is the most precious resource we have to manage. I don't miss an opportunity to increase my technical skills, and adjust organizational skills, in order to finalize tasks efficiently. I enjoy being in a challenging environment, in which I can engage my professionalism and continue to grow. Main interest when not coding is travelling with my family, and spending time in activities that can enrich my background.</p>
+        <p>I believe that time is the most precious resource we have to manage. I don't miss an opportunity to increase my technical skills, and adjust organizational skills, in order to finalize tasks efficiently. I enjoy being in a challenging environment, in which I can engage my professionalism and keep on developing my growth. Main interest when not coding is travelling with my family, and spending time in activities that can enrich my background.</p>
 
     </body>
+    <footer>
+    </footer>
 </html> 
