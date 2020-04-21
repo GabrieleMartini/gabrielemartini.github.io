@@ -11,9 +11,10 @@
 	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" crossorigin="anonymous">
   </head>
+  
   <body>
 	<header>
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
 			<div class="container">
 				<span class="navbar-brand mb-0 h1" href="#">Gabriele Martini</span>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,7 +23,7 @@
 				<div class="collapse navbar-collapse" id="navbarCollapse">
 					<ul class="navbar-nav">
 						<li class="nav-item">
-							<a class="nav-link" href="#intro">About</a>
+							<a class="nav-link" href="#about">About</a>
 						</li>
 					</ul>
 					<ul class="navbar-nav">
@@ -36,54 +37,58 @@
 						</li>
 					</ul>
 				</div>
+				<div style="float:right">
+					<a class="btn btn-default btn-round btn-light btn-icon" href="https://www.linkedin.com/in/gabriele-martini-422b075a" rel="tooltip" title="Follow me on Linkedin"><i class="fa fa-linkedin"></i></a>
+					<a class="btn btn-default btn-round btn-light btn-icon" href="https://github.com/GabrieleMartini" rel="tooltip" title="Follow me on Github"><i class="fa fa-github"></i></a>
+					<a class="btn btn-default btn-round btn-light btn-icon" href="https://stackexchange.com/users/10473104/gabrielemartini?tab=accounts" rel="tooltip" title="My profile on Stack Exchange"><i class="fa fa-stack-exchange"></i></a>	
+					<a class="btn btn-default btn-round btn-light btn-icon" href="https://twitter.com/gabmartini" rel="tooltip" title="Follow me on Twitter"><i class="fa fa-twitter"></i></a>
+					<a class="btn btn-default btn-round btn-light btn-icon" href="https://www.instagram.com/g_a_b_r_i_e_l_e_m_a_r_t_i_n_i" rel="tooltip" title="Follow me on Instagram"><i class="fa fa-instagram"></i></a>						
+				</div>
 			</div>
 		</nav>
+		
+		<section id="intro" style="min-height: 500px; background-image: url(images/sky010.JPG); background-size:cover; position:relative;">
+			<div class="container" >		
+				<h1 style="position: absolute; top:50%; left: 50%; margin-right: -50%; transform:translate(-50%, -50%);">Gabriele Martini</h1>
+				<h3 style="position: absolute; top:50%; left: 50%; margin-right: -50%; transform:translate(-50%, 110%);">[ Back-End Web Developer ]</h3>
+			</div>
+		</section>
+	
 	</header>
 	
-	<section id="intro" class="section-padding bg-grey">
+	
+	<section id="about" class="bg-light" style="padding-top: 80px">
 		<div class="container">
 			<div class="card">
 				<div class="row">
-					<div class="col-6">
+					<div class="col-8">
 						<div class="card-body">
-							<h2>Gabriele Martini</h2>
+							<h2>About</h2>
 						</div>
 					</div>
-					<div class="col-6">
-						<div class="card-body">
-							<div style="float:right">
-								<a class="btn btn-default btn-round btn-light btn-icon" href="https://www.linkedin.com/in/gabriele-martini-422b075a" rel="tooltip" title="Follow me on Linkedin"><i class="fa fa-linkedin"></i></a>
-								<a class="btn btn-default btn-round btn-light btn-icon" href="https://github.com/GabrieleMartini" rel="tooltip" title="Follow me on Github"><i class="fa fa-github"></i></a>
-								<a class="btn btn-default btn-round btn-light btn-icon" href="https://stackexchange.com/users/10473104/gabrielemartini?tab=accounts" rel="tooltip" title="My profile on Stack Exchange"><i class="fa fa-stack-exchange"></i></a>	
-								<a class="btn btn-default btn-round btn-light btn-icon" href="https://twitter.com/gabmartini" rel="tooltip" title="Follow me on Twitter"><i class="fa fa-twitter"></i></a>
-								<a class="btn btn-default btn-round btn-light btn-icon" href="https://www.instagram.com/g_a_b_r_i_e_l_e_m_a_r_t_i_n_i" rel="tooltip" title="Follow me on Instagram"><i class="fa fa-instagram"></i></a>						
-							</div>
-						</div>
-					</div>
-				</div>
-				
+				</div>				
 				<div class="card-body">
 					<div class="row">
 						<div class="col-2">
-							<div> <img src="images/gm.jpg" alt="..." class="img-thumbnail" style="max-width: 160px"> </div>
+							<div> <img src="images/DSC_small.JPG" alt="..." class="img-thumbnail" style="max-width: 160px"> </div>
 						</div>
 						<div class="col-10">		
-							<p>I believe that time is the most precious resource we have to manage. I don't miss an opportunity to increase my technical skills, and adjust my organizational skills, in order to finalize tasks efficiently. I enjoy being in a challenging environment, where I can engage and keep on growing my professionalism. Main interest when not coding is travelling with my family, and spending time in activities that widens my background.</p>							
+							<p>I believe that time is the most precious resource we have to manage. I don't miss an opportunity to increase my technical and organizational skills, in order to finalize tasks efficiently. I enjoy being in a challenging environment, where I can engage and keep on growing my professionalism. Main interest when not coding is travelling with my family.</p>							
+							<p><i>"A smooth sea never made a skilled sailor." [Franklin D. Roosevelt]</i></p>
 						</div>
 					</div>
 				</div>
-				
 			</div>
 		</div>
 	</section>	
 	
-	<section id="experience" class="section-padding bg-grey">
+	<section id="experience" class="bg-light" style="padding-top: 50px">
 		<div class="container">
 			<div class="card">
 				<div class="row">
 					<div class="col-9">
 						<div class="card-body">
-							<h2>Experience</h2>
+							<h2>Work Experience</h2>
 							
 							<table class="table table-borderless">
 								<tbody>
@@ -129,7 +134,7 @@
 		</div>
 	</section>
 
-	<section id="contacts" class="section-padding bg-grey">
+	<section id="contacts" class="bg-light" style="padding-top: 50px">
 		<div class="container">
 			<div class="card">
 				<div class="row">
